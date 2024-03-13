@@ -6,4 +6,6 @@
 
 Run the script from the command line with the following arguments:
 
-- `python estimation_tool.py`
+```
+python estimation_tool.py
+```
