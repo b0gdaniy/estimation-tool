@@ -1,0 +1,18 @@
+{
+  "name": "estimation-tool",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:b0gdaniy/estimation-tool.git",
+  "author": "Bohdan",
+  "license": "MIT",
+  "dependencies": {
+    "crypto": "^1.0.1",
+    "fs-extra": "^11.2.0",
+    "glob": "^10.3.10"
+  },
+  "devDependencies": {
+    "@types/fs-extra": "^11.0.4",
+    "@types/glob": "^8.1.0",
+    "@types/node": "^20.11.27"
+  }
+}
