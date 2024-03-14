@@ -9,7 +9,7 @@ Run the script from the command line with the following arguments:
 - Python:
 
 ```python
-python python_version/estimation_tool.py
+python py_script/estimation_tool.py
 ```
 
 - TS/JS:
