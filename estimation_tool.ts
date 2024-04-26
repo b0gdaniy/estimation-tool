@@ -3,7 +3,7 @@ import path from 'path';
 import crypto from 'crypto';
 import * as glob from 'glob';
 
-const validExtensions = ['.sol', '.vy', '.rs'];
+const validExtensions = ['.sol', '.vy', '.rs', '.move'];
 const excludedPatterns = ['.*\\.t\\.sol$', '.*\\.s\\.sol$'];
 
 function calculateSHA3_256Hash(fileContent: Buffer): string {

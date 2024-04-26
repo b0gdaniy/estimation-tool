@@ -30,7 +30,7 @@ const fs_extra_1 = __importDefault(require("fs-extra"));
 const path_1 = __importDefault(require("path"));
 const crypto_1 = __importDefault(require("crypto"));
 const glob = __importStar(require("glob"));
-const validExtensions = ['.sol', '.vy', '.rs'];
+const validExtensions = ['.sol', '.vy', '.rs', '.move'];
 const excludedPatterns = ['.*\\.t\\.sol$', '.*\\.s\\.sol$'];
 function calculateSHA3_256Hash(fileContent) {
     return crypto_1.default.createHash('sha3-256').update(fileContent).digest('hex');
